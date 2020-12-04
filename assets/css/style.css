@@ -1,0 +1,104 @@
+*{
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "cabecalho"
+        "principal"
+        "rodape";
+}
+
+.cabecalho{
+    grid-area: cabecalho;
+    background-color: #171E22;
+    color: #ffffff;
+    line-height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho > h1{
+    margin: 0px;
+    font-size: 2.5rem;
+}
+
+.cabecalho > h2{
+    margin: 0px;
+    font-weight: 500;
+}
+
+.principal{
+    grid-area: principal;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.conteudo{
+    position: relative;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: #171E22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 2rem;
+    color: #ffffff;
+}
+
+.modulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.modulo{
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border: 2px solid #171E22;
+    border-radius: 7px;
+}
+
+.modulo > h3{
+    margin: 0px;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #171E22;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color:  #171E22;
+}
+
+.modulo > ul{
+    margin: 0px;
+    padding: 7px;
+    list-style: none;
+    font-size: 15px;
+}
+
+.modulo > ul > li{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #171E22;
+}
+
+.modulo > ul > li:hover{
+    background-color: #eeeeee
+}
