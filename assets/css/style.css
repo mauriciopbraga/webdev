@@ -55,7 +55,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-weight: 2rem;
+    font-weight: 500;
     color: #ffffff;
 }
 
@@ -102,3 +102,30 @@ body{
 .modulo > ul > li:hover{
     background-color: #eeeeee
 }
+
+.modulo.vermelho{border: 2px solid #c72f2f;}
+.modulo.vermelho > h3{background-color: #c72f2f;}
+
+.modulo.rosa{border: 2px solid #c72f6e;}
+.modulo.rosa > h3{background-color: #c72f6e;}
+
+.modulo.roxo{border: 2px solid #6c2c8a;}
+.modulo.roxo > h3{background-color: #6c2c8a;}
+
+.modulo.azul{border: 2px solid #3277b8;}
+.modulo.azul > h3{background-color: #3277b8;}
+
+.modulo.verde{border: 2px solid #459c4e;}
+.modulo.verde > h3{background-color: #459c4e;}
+
+.modulo.amarelo{border: 2px solid #d3b833;}
+.modulo.amarelo > h3{background-color: #d3b833;}
+
+.modulo.laranja{border: 2px solid #ca7339;}
+.modulo.laranja > h3{background-color: #ca7339;}
+
+.modulo.verdeClaro{border: 2px solid #3fa075;}
+.modulo.verdeClaro > h3{background-color: #3fa075;}
+
+.modulo.magenta{border: 2px solid #ac4165;}
+.modulo.magenta > h3{background-color: #ac4165;}
